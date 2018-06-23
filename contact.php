@@ -1,5 +1,4 @@
 <?php
-// Free html5 templates : https://www.zerotheme.com
 
 $text = "<span style='color:red; font-size: 35px; line-height: 40px; magin: 10px;'>Error! Please try again.</span>";
 
@@ -35,9 +34,9 @@ if(isset($_POST['submitcontact']))
     <!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>zVintauge - Free Html5 Templates</title>
+	<title>i-Technology site</title>
 	<meta name="description" content="Free Responsive Html5 Css3 Templates | zerotheme.com">
-	<meta name="author" content="https://www.zerotheme.com">
+	<meta name="author" content="https://github.com/alexjke/">
 	
     <!-- Mobile Specific Metas
 	================================================== -->
@@ -77,31 +76,13 @@ if(isset($_POST['submitcontact']))
 	<div class="wrap-body">
 		<header class="">
 			<div class="logo">
-				<a href="#">zVintauge</a>
-				<span>Collectible Vintage & Antique Photos</span>
+				<a href="#">i-Technology GIT</a>
 			</div>
 			<div id="cssmenu" class="align-center">
 				<ul>
-					<li><a href="index.html"><span>Home</span></a></li>
-					<li><a href="gallery.html"><span>Gallery</span></a></li>
-					<li class="has-sub"><a href="archive.html"><span>Blog</span></a>
-						<ul>
-							<li class="has-sub"><a href="#"><span>Item 1</span></a>
-								<ul>
-									<li><a href="#"><span>Sub Item</span></a></li>
-									<li class="last"><a href="#"><span>Sub Item</span></a></li>
-								</ul>
-							</li>
-							<li class="has-sub"><a href="#"><span>Item 2</span></a>
-								<ul>
-									<li><a href="#"><span>Sub Item</span></a></li>
-									<li class="last"><a href="#"><span>Sub Item</span></a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="single.html"><span>About</span></a></li>
-					<li class="active last"><a href="contact.html"><span>Contact</span></a></li>
+					<li><a href="index.html"><span>Главная страница</span></a></li>
+					<li><a href="reports.html"><span>Отчеты</span></a></li>
+					<li class="active last"><a href="info.html"><span>Информация</span></a></li>
 				</ul>
 			</div>
 			<div id="owl-slide" class="owl-carousel">
@@ -128,9 +109,6 @@ if(isset($_POST['submitcontact']))
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.289259162295!2d-120.7989351!3d37.5246781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091042b3386acd7%3A0x3b4a4cedc60363dd!2sMain+St%2C+Denair%2C+CA+95316%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1434016649434" width="100%" height="450px" frameborder="0" style="border: 0"></iframe>
 						</div>
 						<div id="contact_form">
-							<!--Warning-->
-							<center><?php echo $text;?></center>
-							<!---->
 							<form name="form1" id="ff" method="post" action="contact.php">
 								<label class="row">
 									<div class="col-1-3">
@@ -165,99 +143,9 @@ if(isset($_POST['submitcontact']))
 		</section>
 		<!--////////////////////////////////////Footer-->
 		<footer>
-			<div class="zerogrid wrap-footer">
-				<div class="row">
-					<div class="col-1-4 col-footer-1">
-						<div class="wrap-col">
-							<h3 class="widget-title">About Us</h3>
-							<p>Ut volutpat consectetur aliquam. Curabitur auctor in nis ulum ornare. Metus elit vehicula dui. Curabitur auctor in nis ulum ornare. Sed consequat, augue condimentum fermentum</p>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque la udantium</p>
-						</div>
-					</div>
-					<div class="col-1-4 col-footer-2">
-						<div class="wrap-col">
-							<h3 class="widget-title">Recent Post</h3>
-							<ul>
-								<li><a href="#">MOST VISITED COUNTRIES</a></li>
-								<li><a href="#">5 PLACES THAT MAKE A GREAT HOLIDAY</a></li>
-								<li><a href="#">PEBBLE TIME STEEL IS ON TRACK TO SHIP IN JULY</a></li>
-								<li><a href="#">STARTUP COMPANY’S CO-FOUNDER TALKS ON HIS NEW PRODUCT</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-1-4 col-footer-3">
-						<div class="wrap-col">
-							<h3 class="widget-title">Tag Cloud</h3>
-							<a href="#">animals</a>
-							<a href="#">cooking</a>
-							<a href="#">countries</a>
-							<a href="#">city</a>
-							<a href="#">children</a>
-							<a href="#">home</a>
-							<a href="#">likes</a>
-							<a href="#">photo</a>
-							<a href="#">link</a>
-							<a href="#">law</a>
-							<a href="#">shopping</a>
-							<a href="#">skate</a>
-							<a href="#">scholl</a>
-							<a href="#">video</a>
-							<a href="#">travel</a>
-							<a href="#">images</a>
-							<a href="#">love</a>
-							<a href="#">lists</a>
-							<a href="#">makeup</a>
-							<a href="#">media</a>
-							<a href="#">password</a>
-							<a href="#">pagination</a>
-							<a href="#">wildlife</a>
-						</div>
-					</div>
-					<div class="col-1-4 col-footer-4">
-						<div class="wrap-col">
-							<h3 class="widget-title">Gallery</h3>
-							<div class="row">
-								<div class="col-1-3">
-									<div class="wrap-col">
-										<a href="#"><img src="images/11.jpg"></a>
-										<a href="#"><img src="images/1.jpg"></a>
-										<a href="#"><img src="images/13.jpg"></a>
-									</div>
-								</div>
-								<div class="col-1-3">
-									<div class="wrap-col">
-										<a href="#"><img src="images/10.jpg"></a>
-										<a href="#"><img src="images/9.jpg"></a>
-										<a href="#"><img src="images/4.jpg"></a>
-									</div>
-								</div>
-								<div class="col-1-3">
-									<div class="wrap-col">
-										<a href="#"><img src="images/2.jpg"></a>
-										<a href="#"><img src="images/6.jpg"></a>
-										<a href="#"><img src="images/5.jpg"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="zerogrid bottom-footer">
-				<div class="row">
-					<div class="bottom-social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-vimeo"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-						<a href="#"><i class="fa fa-youtube"></i></a>
-					</div>
-				</div>
 				<div class="copyright">
-					Copyright @ - Designed by <a href="https://www.zerotheme.com" title="free website templates">ZEROTHEME</a>
+					Copyright @ - Site designed by <a href="https://github.com/alexjke/">Alex</a>, theme by <a href="https://www.zerotheme.com">ZEROTHEME</a>
 				</div>
 			</div>
 		</footer>
