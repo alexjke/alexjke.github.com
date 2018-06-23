@@ -85,18 +85,6 @@ if(isset($_POST['submitcontact']))
 					<li class="active last"><a href="info.html"><span>Информация</span></a></li>
 				</ul>
 			</div>
-			<div id="owl-slide" class="owl-carousel">
-				<div class="item">
-					<img src="images/slide1.jpg" />
-				</div>
-				<div class="item">
-					<img src="images/slide2.jpg" />
-				</div>
-				<div class="item">
-					<img src="images/slide3.jpg" />
-					
-				</div>
-			</div>
 		</header>
 		<!--////////////////////////////////////Container-->
 		<section id="container">
