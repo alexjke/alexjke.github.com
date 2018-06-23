@@ -9,11 +9,11 @@ if(isset($_POST['submitcontact']))
 	$message=$_POST['message'];
 	$subject=$_POST['subject'];
 
-	$to = "youremail@gmail.com";
-	$subject = "Zerotheme - Testing Contact Form";
+	$to = "test@test.com";
+	$subject = "New message from i-tech site";
 	$message = " Name: " . $name ."\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
 	 
-	$from = "Zerotheme dot com";
+	$from = "I-Technology Site";
 	$headers = "From:" . $from . "\r\n";
 	$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n"; 
 	 
