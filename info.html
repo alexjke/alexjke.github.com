@@ -97,36 +97,45 @@
 								</label>
 								<center><input class="sendButton" type="submit" name="submitcontact" value="Submit"></center>
 								
-								<table>
-									<tr>
-										<td>
-											<input type="text" name="input" size="16" class="display">
-										</td>
-									</tr>
-									<tr>
-										<td class="button">
-											<input type="button" name="one" value="1" OnClick="form1.input.value += '1'">
-											<input type="button" name="two" value="2" OnClick="form1.input.value += '2'">
-											<input type="button" name="three" value="3" OnClick="form1.input.value += '3'">
-											<input type="button" name="add" value="+" OnClick="form1.input.value += '+'">
-											<br>
-											<input type="button" name="four" value="4" OnClick="form1.input.value += '4'">
-											<input type="button" name="five" value="5" OnClick="form1.input.value += '5'">
-											<input type="button" name="six" value="6" OnClick="form1.input.value += '6'">
-											<input type="button" name="sub" value="-" OnClick="form1.input.value += '-'">
-											<br>
-											<input type="button" name="seven" value="7" OnClick="form1.input.value += '7'">
-											<input type="button" name="eight" value="8" OnClick="form1.input.value += '8'">
-											<input type="button" name="nine" value="9" OnClick="form1.input.value += '9'">
-											<input type="button" name="mul" value="x" OnClick="form1.input.value += '*'">
-											<br>
-											<input type="button" name="clear" value="c" OnClick="form1.input.value = ''">
-											<input type="button" name="zero" value="0" OnClick="form1.input.value += '0'">
-											<input type="button" name="doit" value="=" OnClick="form1.input.value = eval(form1.input.value)">
-											<input type="button" name="div"  value="/" OnClick="form1.input.value += '/'">
-										</td>
-									</tr>
-								</table>
+								<label class="row">
+									<div class="col-1-3">
+										<div class="wrap-col">
+											<input type="text" name="input" id="input" />
+										</div>
+									</div>
+									<div class="col-1-3">
+										<div class="wrap-col">
+											<input type="button" name="one" value="1" OnClick="form1.input.value += '1'"  />
+											<input type="button" name="two" value="2" OnClick="form1.input.value += '2'" />
+											<input type="button" name="three" value="3" OnClick="form1.input.value += '3'" />
+											<input type="button" name="add" value="+" OnClick="form1.input.value += '+'" />
+										</div>
+									</div>
+									<div class="col-1-3">
+										<div class="wrap-col">
+											<input type="button" name="four" value="4" OnClick="form1.input.value += '4'" />
+											<input type="button" name="five" value="5" OnClick="form1.input.value += '5'" />
+											<input type="button" name="six" value="6" OnClick="form1.input.value += '6'" />
+											<input type="button" name="sub" value="-" OnClick="form1.input.value += '-'" />
+										</div>
+									</div>
+									<div class="col-1-3">
+										<div class="wrap-col">
+											<input type="button" name="seven" value="7" OnClick="form1.input.value += '7'" />
+											<input type="button" name="eight" value="8" OnClick="form1.input.value += '8'" />
+											<input type="button" name="nine" value="9" OnClick="form1.input.value += '9'" />
+											<input type="button" name="mul" value="x" OnClick="form1.input.value += '*'" />
+										</div>
+									</div>
+									<div class="col-1-3">
+										<div class="wrap-col">
+											<input type="button" name="clear" value="c" OnClick="form1.input.value = ''" />
+											<input type="button" name="zero" value="0" OnClick="form1.input.value += '0'" />
+											<input type="button" name="doit" value="=" OnClick="form1.input.value = eval(form1.input.value)" />
+											<input type="button" name="div"  value="/" OnClick="form1.input.value += '/'" />
+										</div>
+									</div>
+								</label>
 							</form>
 						</div>
 					</div>
